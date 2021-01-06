@@ -7,6 +7,7 @@ def Game_Object():
   """ Here are all the objects made for the use of the game:
       - the jumping ball
       - the Walls.
+      - Maybe others will come
   """
   #Screen
   Screen = GraphWin("Reaching the Top", 500, 500)
