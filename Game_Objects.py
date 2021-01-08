@@ -12,10 +12,10 @@ def Game_Object():
   #Screen
   Screen = GraphWin("Reaching the Top", 500, 500)
   Screen.setCoords(0,0,500,500)
-  Screen.setBackground("white")
+  Screen.setBackground("black")
 
   #Ball
-  Center= Point(250,15)
+  Center= Point(10,15)
   Ball=Circle(Center,10)
   Ball.setFill('red')
   Ball.setOutline("red")
@@ -25,15 +25,15 @@ def Game_Object():
   #Walls
   #LEFT WALL
   Wall_L=Rectangle(Point(0,0),Point(100,5))
-  Wall_L.setFill("black")
+  Wall_L.setFill("white")
   #Wall_L.draw(Screen)
   #CENTER WALL
   Wall_C=Rectangle(Point(175,0),Point(325,5))
-  Wall_C.setFill("black")
+  Wall_C.setFill("white")
   #Wall_C.draw(Screen)
   #RIGHT WALL
   Wall_R=Rectangle(Point(400,0),Point(500,5))
-  Wall_R.setFill("black")
+  Wall_R.setFill("white")
   #Wall_R.draw(Screen)
   Wall=[Wall_L,Wall_C,Wall_R]
 
