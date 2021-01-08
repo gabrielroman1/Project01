@@ -39,7 +39,8 @@ def Game_Object():
 
   #Wait=Screen.getMouse()
   #Screen.close()
-   
+  #I need to create another function and change the condition to that function
+  #with the things that are comented it would be test. 
   return Screen,Ball,Wall
   
 if __name__=='__Game_Object__':
