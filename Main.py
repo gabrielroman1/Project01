@@ -35,6 +35,7 @@ def main():
            else:
             Power="On"
             b=0
+            a=0
             Screen.close()
         elif Input == 2:
           File=open("README.md","r")
@@ -47,6 +48,7 @@ def main():
              b=1
           else:
             Power="On"
+            a=0
             b=0
         elif Input == 0:
           print("Good bye")
@@ -55,6 +57,7 @@ def main():
         else:
           print("Value not permited, enter a value that refers to an action:")
           Input=int(input("Insert your Option: "))
-      
+          
+          
 
 main()
